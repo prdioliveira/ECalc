@@ -36,3 +36,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### DIR EVOSUITE
+.evosuite/
+/src/evo/
+*_scaffolding.java
+*.tmp
+.mvn/
