@@ -1,0 +1,28 @@
+[MASTER] 21:12:37.937 [pool-2-thread-1] ERROR TestSuiteGenerator - Problem for br.ufjf.pos.Calculadora. Full stack:
+java.lang.NoClassDefFoundError: Could not initialize class org.evosuite.TestGenerationContext
+	at org.evosuite.setup.EnvironmentTestClusterAugmenter.<init>(EnvironmentTestClusterAugmenter.java:85) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestCluster.<init>(TestCluster.java:93) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestCluster.getInstance(TestCluster.java:104) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:496) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:277) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:97) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_482]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_482]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_482]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_482]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_482]
+[MASTER] 21:12:37.948 [pool-2-thread-1] ERROR ClientNodeImpl - Error when generating tests for: br.ufjf.pos.Calculadora with seed 1770336757524. Configuration id : default
+java.lang.NoClassDefFoundError: Could not initialize class org.evosuite.TestGenerationContext
+	at org.evosuite.result.TestGenerationResultBuilder.resetTestData(TestGenerationResultBuilder.java:94) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.result.TestGenerationResultBuilder.<init>(TestGenerationResultBuilder.java:77) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.result.TestGenerationResultBuilder.getInstance(TestGenerationResultBuilder.java:82) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.result.TestGenerationResultBuilder.buildErrorResult(TestGenerationResultBuilder.java:50) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:169) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-master-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_482]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_482]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_482]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_482]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_482]

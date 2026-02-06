@@ -1,0 +1,4 @@
+* Starting client
+* Connecting to master process on port 16899
+* Analyzing classpath: 
+* Error while initializing target class: Could not initialize class org.evosuite.TestGenerationContext

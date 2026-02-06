@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project>
+    <totalNumberOfTestableClasses>1</totalNumberOfTestableClasses>
+    <cut>
+        <fullNameOfTargetClass>br.ufjf.pos.Calculadora</fullNameOfTargetClass>
+        <fullNameOfTestSuite>br.ufjf.pos.br.ufjf.pos.Calculadora_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>180</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_20_56_15\logs\br.ufjf.pos.Calculadora\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_20_56_15\logs\br.ufjf.pos.Calculadora\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_20_56_15\logs\br.ufjf.pos.Calculadora\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_20_56_15\logs\br.ufjf.pos.Calculadora\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_20_56_15\tests\br\ufjf\pos\br.ufjf.pos.Calculadora_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>12</numberOfTests>
+                <totalNumberOfStatements>24</totalNumberOfStatements>
+                <totalEffortInSeconds>16</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>1</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>180</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_21_12_30\logs\br.ufjf.pos.Calculadora\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_21_12_30\logs\br.ufjf.pos.Calculadora\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_21_12_30\logs\br.ufjf.pos.Calculadora\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\SQUADRA\Documents\UFJF - Pos Graduacao\Aulas\1 - Semestre\workspace-pos-ufjf\InteligenciaArtificial\ECalc\.evosuite\tmp_2026_02_05_21_12_30\logs\br.ufjf.pos.Calculadora\std_out_MASTER.log</std_out_MASTER>
+        </generation>
+    </cut>
+</Project>
