@@ -8,7 +8,7 @@ public class Calculadora {
      * @param b sengundo operando
      * @return resultado da soma
      */
-    public float somar(float a, float b){
+    public double somar(double a, double b){
         return a + b;
     }
 
@@ -19,7 +19,7 @@ public class Calculadora {
      * @param b sengundo operando
      * @return resultado da subtração
      */
-    public float subtrair(float a, float b){
+    public double subtrair(double a, double b){
         return a - b;
     }
 
@@ -30,7 +30,7 @@ public class Calculadora {
      * @param b sengundo fator
      * @return resultado da multiplicação
      */
-    public float multiplicar(float a, float b){
+    public double multiplicar(double a, double b){
         return a * b;
     }
 
@@ -42,8 +42,8 @@ public class Calculadora {
      * @return resultado da divisção
      * @throws ArithmeticException se o divisor for zero
      */
-    public float dividir(float a, float b){
-        if (b == 0.0f){
+    public double dividir(double a, double b){
+        if (b == 0.0){
             throw new ArithmeticException("Divisão por zero não permitida");
         }
         return a / b;
@@ -51,17 +51,17 @@ public class Calculadora {
 
     // Versões de sobrecarga
 
-    public float somar(float... numeros){
-        float resultado = 0.0f;
-        for (float n : numeros){
+    public double somar(double... numeros){
+        double resultado = 0.0;
+        for (double n : numeros){
             resultado += n;
         }
         return resultado;
     }
 
-    public float multiplicar(float... numeros){
-        float resultado = 1.0f;
-        for (float n : numeros){
+    public double multiplicar(double... numeros){
+        double resultado = 1.0;
+        for (double n : numeros){
             resultado *= n;
         }
         return resultado;
